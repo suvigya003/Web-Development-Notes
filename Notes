@@ -67,4 +67,24 @@ API
   else has written the code and we are directly installing the app and using it's functionality on our browser. It is not available with browser.
   Eg:- I have to make a tweet so I need twitter API bcz I'm not writing complete code for twitter app, neither I am writing the code for tweet 
   I'm just using the already written code(API) for tweeting on twitter which is not available with browser. 
-- 
+
+**********************************************************************************************************************************************************************
+
+Js libraries
+
+Usually one or more JavaScript files containing custom functions that you can attach to your web page to speed up or enable writing common functionality. 
+Eg:- jQuery, Mootools and React.
+
+**********************************************************************************************************************************************************************
+
+Js frameworks
+
+The next step up from libraries, JavaScript frameworks (e.g. Angular and Ember) tend to be packages of HTML, CSS, JavaScript, and other technologies 
+that you install and then use to write an entire web application from scratch.
+
+**********************************************************************************************************************************************************************
+
+Lib vs Framework
+
+When calling a method from a library, the developer is in control. With a framework, the control is inverted: the framework calls the developer's code, 
+called Inversion of Control.
