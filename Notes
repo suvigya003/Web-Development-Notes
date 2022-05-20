@@ -31,7 +31,9 @@ SSH
 
 - Secure Shell Protocol
 - Web Browsers talk to servers using https protocol. Similarly, SSH allows to establish secure communication between systems, 
-  remotely access another computer, clone pull/push files from GitHub servers and much more.
+  remotely access another computer, clone pull/push files from GitHub servers and much more. 
+  SSH is essentially using a network connection to get into Terminal on another computer.
+- SSH runs over port 22 by default.
 - SSH breaks data into series of package and encrypts the data before transmitting.
 - Three encryption techniques used by SSH are:-
   Symmetrical Encryption
