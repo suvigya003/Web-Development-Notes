@@ -48,3 +48,21 @@ SSH
       secured.
 - Github allows to fork or pull using https and ssh but using https, at each fork or pull request, we have to provide our pswd. 
   To avoid this task we can create our own ssh key for our system and add it to our own github account.
+
+**********************************************************************************************************************************************************************
+
+API
+
+- Application Programming Interface
+- A software intermediary that allows two applications to talk to each other.
+- These are constructs made available in programming languages to allow developers to create complex functionality more easily. 
+  They abstract more complex code away from you, providing some easier syntax to use in its place.
+  Eg:- if you want to say, program some 3D graphics, it is a lot easier to do it using an API written in a higher-level language such as JavaScript or Python, 
+       rather than try to directly write low level code (say C or C++) that directly controls the computer's GPU or other graphics functions.
+- A Browser API can extend the functionality of a web browser. All browsers have a set of built-in Web APIs to support complex operations, and to help accessing data.
+    For example, the Web Audio API provides JavaScript constructs for manipulating audio in the browser. 
+    In the background, the browser is actually using some complex lower-level code (e.g. C++ or Rust) to do the actual audio processing. 
+    But again, this complexity is abstracted away from you by the API.
+- Third party APIs are not built into your browser. To use these APIs, you will have to download the code from the Web. Eg:- Youtube API, Twitter API etc. Somebody 
+  else has written the code and we are directly installing the app and using it's functionality on our browser. It is not available with browser.
+- 
