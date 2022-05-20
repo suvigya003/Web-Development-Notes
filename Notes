@@ -65,4 +65,6 @@ API
     But again, this complexity is abstracted away from you by the API.
 - Third party APIs are not built into your browser. To use these APIs, you will have to download the code from the Web. Eg:- Youtube API, Twitter API etc. Somebody 
   else has written the code and we are directly installing the app and using it's functionality on our browser. It is not available with browser.
+  Eg:- I have to make a tweet so I need twitter API bcz I'm not writing complete code for twitter app, neither I am writing the code for tweet 
+  I'm just using the already written code(API) for tweeting on twitter which is not available with browser. 
 - 
