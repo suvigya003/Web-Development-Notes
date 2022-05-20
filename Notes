@@ -1,0 +1,22 @@
+Server Side scripting language
+- Source code is not visible to the user because its output of server-sideside is an HTML page. 
+- Used to create dynamic pages.
+- In this load times are generally faster than client-side scripting.
+- When you need to store and retrieve information a database will be used to contain data. It can use huge resources of the server.
+- It reduces client-side computation overhead.
+- In this any server-side technology can be used and it does not depend on the client. 
+- It runs on the webserver.
+- It provides more security for data.
+- Uses scripts on the webserver to produce a response that is customized for each client’s request.
+- Eg:- PHP, Python, Java, Ruby.
+
+Client Side scripting language
+- Source code is visible to the user.
+- Source code is used to transfer from webserver to user’s computer over the internet and run directly on browsers.
+- It cannot be basically used to connect to databases on a web server.
+- These scripts cannot access the file system that resides in the web browser.
+- It usually depends on the browser and its version.
+- It runs on the user’s computer.
+- It does not provide security for data.
+- Scripts run on the client’s browser.
+- Eg:- HTML, CSS, and javascript 
