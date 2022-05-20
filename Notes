@@ -44,4 +44,5 @@ SSH
       Client's system converts msg and symmetric key into a hash number and send it to host.
       Host also has same symm key so he also runs the same hash function on symm key and gets hash number, matches it with received one, if same then connection is 
       secured.
-- 
+- Github allows to fork or pull using https and ssh but using https, at each fork or pull request, we have to provide our pswd. 
+  To avoid this task we can create our own ssh key for our system and add it to our own github account.
