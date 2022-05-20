@@ -11,7 +11,7 @@ Server Side scripting language
 - Uses scripts on the webserver to produce a response that is customized for each client’s request.
 - Eg:- PHP, Python, Java, Ruby.
 
-**************************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************
 
 Client Side scripting language
 
@@ -25,11 +25,23 @@ Client Side scripting language
 - Scripts run on the client’s browser.
 - Eg:- HTML, CSS, and javascript 
 
-**************************************************************************************************************************************************************************
+**********************************************************************************************************************************************************************
 
 SSH
 
 - Secure Shell Protocol
 - Web Browsers talk to servers using https protocol. Similarly, SSH allows to establish secure communication between systems, 
   remotely access another computer, clone pull/push files from GitHub servers and much more.
+- SSH breaks data into series of package and encrypts the data before transmitting.
+- Three encryption techniques used by SSH are:-
+  Symmetrical Encryption
+  Asymmetrical Encryption - (Difiie Hellman Key Exchange Algorithm) 
+      Each system generates a temporary public and private key whereas the public key is encrypted and shared to the other system and 
+      is decrypted by its paired system’s private key. At this point, each system generated a symmetric keys using their individual private and shared public keys 
+      to exchange messages.
+  Hashing
+      It generates a unique value for all the input a system receives using HMAC (hash based message authentication code).
+      Client's system converts msg and symmetric key into a hash number and send it to host.
+      Host also has same symm key so he also runs the same hash function on symm key and gets hash number, matches it with received one, if same then connection is 
+      secured.
 - 
