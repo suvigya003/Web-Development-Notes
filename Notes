@@ -68,6 +68,17 @@ API
   Eg:- I have to make a tweet so I need twitter API bcz I'm not writing complete code for twitter app, neither I am writing the code for tweet 
   I'm just using the already written code(API) for tweeting on twitter which is not available with browser. 
 
+Browser APIs
+
+- APIs for manipulating documents loaded into the browser - creating, removing and changing HTML,CSS, dynamically applying new styles to your page. DOM API is used.
+- APIs that fetch data from the server to update small sections of a webpage - if you just need to update a stock listing or list of available new stories, 
+  doing it instantly without having to reload the whole entire page from the server can make the site or app feel much more responsive and "snappy".
+  The API used is FetchAPI and Ajax.
+- APIs for drawing and manipulating graphics. Canvas is used.
+- Audio and Video APIs. HTMLMediaElement, WebAudioAPI is used.
+- Device APIs enable you to interact with device hardware: for example, accessing the device GPS to find the user's position using the Geolocation API.
+- Client-side storage APIs. Web Storage API is used.
+
 **********************************************************************************************************************************************************************
 
 Js libraries
