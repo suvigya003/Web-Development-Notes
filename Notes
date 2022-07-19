@@ -1,6 +1,6 @@
 Server Side scripting language
 
-- Source code is not visible to the user because its output of server-sideside is an HTML page. 
+- Source code is not visible to the user because its output of server-side is an HTML page. 
 - Used to create dynamic pages.
 - In this load times are generally faster than client-side scripting.
 - When you need to store and retrieve information a database will be used to contain data. It can use huge resources of the server.
